@@ -1,0 +1,70 @@
+.projects-page {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.project-cards-layout {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+
+.project-menu {
+  list-style: none;
+  margin: 0 35px 0 0;
+  padding: 0;
+
+  a {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.project {
+  max-width: 50%;
+
+  @media (max-width: 700px) {
+    max-width: 100%;
+  }
+
+  .composers-couch {
+
+    img {
+      padding: 1rem;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.my-gallery {
+
+  figure {
+    margin: 1em 0;
+
+    img {
+      max-height: 150px;
+      max-width: 150px;
+    }
+
+    figcaption {
+      display: none;
+    }
+
+    &:first-of-type  {
+      display: inline-block;
+      margin: 1em 40px;
+
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      figcaption {
+        display: inline-block;
+      }
+    }
+  }
+}

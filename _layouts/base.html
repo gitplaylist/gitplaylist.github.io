@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#59B390"/>
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="/image/x-icon" href="/images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="container flex-row-space-between">
+        <h1>
+          <a href="/">gitplaylist</a>
+        </h1>
+        <nav class="material-tabs">
+          <a class="{{ page.about }}" href="/">About Us</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer class="container">
+      <hr/>
+      <div class="flex-row-space-between">
+        <span>
+          <a href="http://stewartjpark.com/" target="_blank">
+            Stewart Park
+          </a>
+          |
+          <a href="http://www.timbest.net/" target="_blank">
+            Tim Best
+          </a>
+        </span>
+        <span class="inline-links">
+          <a class="github" href="https://github.com/gitplaylist" target="_blank">
+            <span class="fa fa-github"></span>
+          </a>
+          <a class="trello" href="https://trello.com/gitplaylist" target="_blank">
+            <span class="fa fa-trello"></span>
+          </a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
