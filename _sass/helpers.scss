@@ -5,3 +5,45 @@
 .text-right {
   text-align: right;
 }
+
+
+$github: #333;
+$linkedin: #4875B4;
+$stack-overflow: #fe7a15;
+
+.icon-link {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.github,
+.github:visited {
+  color: $github;
+
+  &:hover,
+  &:focus {
+    color: darken($github, 20%);
+  }
+}
+
+.linkedin,
+.linkedin:visited {
+  color: $linkedin;
+
+  &:hover,
+  &:focus {
+    color: darken($linkedin, 20%);
+  }
+}
+
+.stack-overflow,
+.stack-overflow:visited {
+  color: $stack-overflow;
+
+  &:hover,
+  &:focus {
+    color: darken($stack-overflow, 15%);
+  }
+}
