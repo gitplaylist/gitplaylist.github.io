@@ -9,6 +9,10 @@ $active-border-width: 2px; // width of the active tabs bottom border
   a {
     padding: $vertical-padding ($space-between-tabs / 2);
   }
+
+  img {
+    display: inline;
+  }
 }
 
 .inline-links {
